@@ -110,12 +110,18 @@
         margin-top: 5em;
         font-family: monospace;
     }
+    .menu {
+        text-align: center;
+    }
+    .menu a, a:visited, a:hover, a:active {
+        color: inherit;
+    }
     </style>
   </head>
 <body>
 
 <h1>weeklycharts.org</h1>
-<p style="text-align: center"><a href="#charts">Charts</a> &middot; <a href="#support">Support</a> &middot; <a href="#contact">Contact</a> &middot; <a href="#source">Source</a> &middot; <a href="#about">About</a> &middot; <a href="#disclaimers">Disclaimers</a></p>
+<div class="menu"><a href="#charts">Charts</a> &middot; <a href="#support">Support</a> &middot; <a href="#contact">Contact</a> &middot; <a href="#source">Source</a> &middot; <a href="#about">About</a> &middot; <a href="#disclaimers">Disclaimers</a></div>
 
 <div class="tbl-wrapper">
 <table>
@@ -265,7 +271,7 @@
 
 <h2 id="support">Support this project</h2>
 
-<p>You may support this project by expressing your appreciation in the form of a contribution via PayPal.  I am grateful and thank you for your contribution. &#x1F44D; &#x1F917;</p>
+<p>You may support this project by expressing your appreciation in the form of a contribution via PayPal.  I am grateful and thank you for your kind contribution. &#x1F44D; &#x1F917;</p>
 
 <div class="btn-group">
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QHDHXYNJYYDX8" class="button">$1</a>
@@ -288,11 +294,15 @@
 
 <h2 id="source">Source code for this project</h2>
 <p>The source files for this website and source code that generate these stock charts can be found at this project repository at <a href="https://github.com/weeklycharts">github.com/weeklycharts</a>.</p>
+<p>I have used UNIX shell scripts and awk to calculate the statistic and HTML, CSS and SVG for presentation, and GNU make for building this project.  Previously, I had used C language for statistic and Postscript language for presentation.  The reason for the change is for easy maintenance and computer has become faster.</p>
 
 <h2 id="about">About this project</h2>
 <p>This project is based on an idea which I have after reading the book, <cite>How I Made $2,000,000 in the Stock Market</cite> by Nicolas Darvas.</p>
-<p>Mr Darvas would first become interested in a particular stock on the basis of its <em>strong</em> movement as quoted in <em>Barron's</em>, a weekly financial publication, which was airmailed to him every <em>week</em> as soon as it was published.  He only focused on <q>five to eight stocks at a time</q> that showed strong movement.  He would separate himself from other <q>confusing, jungle-like movement of the hundreds of stocks which surrounded them</q>.</p>
-<p>The aim of this project is similar, that is, to let you focus your time and energy only on those handful of stocks that show strong movement and nothing else.</p>
+<p>Mr Darvas would first become interested in a particular stock on the basis of its <q>rising</q> movement as recorded in <em>Barron's</em>, a weekly financial publication, which was airmailed to him every <em>week</em> as soon as it was published.  He only focused on <q>five to eight stocks at a time</q> that showed <q>upward</q> and <q>advancing</q> movement.  He would separate himself from other <q>confusing, jungle-like movement of the hundreds of stocks which surrounded them</q>.</p>
+<p>The objective of this project is similar.</p>
+<p>That is to show you, <em>weekly</em>, only those handful of <q>rising</q>, <q>upward</q>, and <q>advancing</q> stocks that need your attention.  Your time spent on such financial endeavour should be keep to a minimum if you want to maintain a professional work and healthy family life balance.</p>
+<p>P.S. Between 1958 to 1959, while doing a two-year dancing tour of the world, Mr Darvas managed to conduct a successful trading operation, with just daily cablegrams between himself and Wall Street, and a weekly publication.</p>
+<p>P.P.S. I have classified these <q>rising</q>, <q>upward</q> and <q>advancing</q> stocks as <em>strong</em> stocks for short.</p>
 
 <h2 id="disclaimers">Disclaimers</h2>
 <p>Please read this disclaimers carefully and take it seriously.</p>
